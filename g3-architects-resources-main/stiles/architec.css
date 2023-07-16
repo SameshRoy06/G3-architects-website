@@ -91,6 +91,54 @@ main{
     font-weight: bold;
 }
 
+/* features section contain */
+
+.features{
+    margin: 50px;
+    display: flex;
+    gap: 100px;
+
+}
+.feature-contain .card{
+    background: rgb(247, 236, 236);
+    border-radius: 30px;
+    padding:2px;
+    box-shadow: 20px;
+    gap: 20px;
+   margin-bottom: 20px;
+   width: 350px;
+
+}
+.feature-image{
+    width: 100%;
+    margin: auto;
+}
+.feature-title{
+    border-left: 5px solid red;
+    padding-left: 20px;
+}
+.year{
+    background-color: chocolate;
+    padding: 10px;
+    margin-right: 50px;
+    color: white;
+    width: 340px;
+    margin-bottom: 50px;
+}
+.ten{
+    font-size: 45px;
+    text-align: center;
+    font-size: 80px;
+}
+.ten-dis{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
 
 
 /* responsive sitle */
@@ -99,6 +147,9 @@ main{
         padding: 50px;
     }
     nav{
+        flex-direction: column;
+    }
+    team-container{
         flex-direction: column;
     }
  
