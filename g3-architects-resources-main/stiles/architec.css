@@ -120,23 +120,58 @@ main{
 .year{
     background-color: chocolate;
     padding: 10px;
-    margin-right: 50px;
+    text-align: center;
+    height: 250px;
     color: white;
-    width: 340px;
-    margin-bottom: 50px;
+    width: 300px;
+    position: relative;
+    bottom: 90px;
+    
 }
 .ten{
+    margin-bottom: 20px;
     font-size: 45px;
     text-align: center;
     font-size: 80px;
 }
 .ten-dis{
+    margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
 }
+/* Fats Cards Stile */
+.cards{
+    padding-top: 30px;
+    border: 1px solid coral;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+.facts-cards{
+    margin: 50px 30px;
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    justify-content: space-between
+}
+.facts-title{
+    font-size: 50px;
+}
+.fats-dis{
+    margin: 0;
+    font-size: 20px;
+}
+.card-number{
+    font-size: 40px;
+}
+    
+    
+ 
 
 
 
+  
 
 
 
