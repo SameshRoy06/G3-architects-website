@@ -187,11 +187,19 @@ main{
     font-size: 40px;
 }
 
-
+/* Footer Stile */
+.footer-contain{
+    margin:40px;
+    padding: 60px;
+    text-align: center;
+    height: 90px;
+    background-color: rgb(245, 233, 218);
+}
+.foot-text{
+    font-size: 20px;
+    color: rgb(122, 114, 114);
+}
   
-
-
-
 
 /* responsive sitle */
 @media screen and (max-width: 576px) {
@@ -211,10 +219,6 @@ main{
     nav{
         flex-direction: column;
     } 
-    team-content{
-        padding-right: 20px;
-        padding-left: 20px;
-   }
 }
 
 
