@@ -165,10 +165,27 @@ main{
 .card-number{
     font-size: 40px;
 }
-    
-    
- 
+   
 
+/* sponsor stile */
+.sponsor{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sponsor-image{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+ .sponsor-photo{ 
+    height: 30px;
+ }
+.title-spn{
+    font-size: 40px;
+}
 
 
   
